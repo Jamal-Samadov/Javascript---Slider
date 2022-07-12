@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+padding: 2rem 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.slider img{
+    width: 100%;
+    height: 500px;
+    
+}
+.slider{
+    position: relative;
+}
+
+.last,.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    padding: 15px 0;
+    cursor: pointer;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 6px;
+    user-select: none;
+    padding: 16px;
+}
+.last:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+.next{
+    right: 20px;
+}
+.last{
+    left: 20px;
+}
+#all-circle{
+    text-align: center;
+}
+
+.circle {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 1rem 2px;
+    background-color: rgb(122, 128, 219);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
